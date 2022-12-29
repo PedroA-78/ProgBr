@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediary HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Intermediary HTML</h1>
+    <div class="forms">
+        <h2>Formulários</h2>
+        <form>
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </fieldset>
+
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email">
+            </fieldset>
+
+            <fieldset>
+                <label for="password">Senha</label>
+                <input type="password" id="password">
+            </fieldset>
+
+            <fieldset class="custom-input">
+                <p>Tecnologias</p>
+                <label for="html"><input type="checkbox" name="" id="html" value="1">HTML</label>
+                <label for="css"><input type="checkbox" name="" id="css" value="2">CSS</label>
+                <label for="js"><input type="checkbox" name="" id="js" value="3">JS</label>
+            </fieldset>
+
+            <fieldset class="custom-input">
+                <p>Dev.?</p>
+                <label for="front"><input type="radio" name="dev" id="front">Front-end</label>
+                <label for="back"><input type="radio" name="dev" id="back">Back-end</label>
+                <label for="full"><input type="radio" name="dev" id="full">Fullstack</label>
+            </fieldset>
+
+            <fieldset class="custom-input">
+                <p>Estado</p>
+                <select name="country" id="">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="pr">Paraná</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="msg ">Mensagem</label>
+                <textarea name="" id="msg " cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <div class="buttons">
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

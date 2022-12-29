@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+}
+
+/* FORM */
+
+
+form {
+    width: 60%;
+    max-width: 412px;
+    padding: 16px 8px;
+    margin: 0 auto;
+    border: 2px solid #555;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+}
+
+form label {
+    display: block;
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+form input {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    outline: none;
+    line-height: 24px;
+    color: #444;
+    font-weight: 600;
+}
+
+.custom-input label {
+    letter-spacing: unset;
+    font-weight: unset;
+}
+
+.custom-input input {
+    width: unset;
+}
+
+.custom-input p {
+    margin: 4px 0;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/* SELECT */
+
+.custom-input select {
+    width: 50%;
+    padding: 2px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    line-height: 24px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+}
+
+/* TEXTAREA */
+
+textarea {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    resize: none;
+    color: #444;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* BUTTONS */
+
+.buttons {
+    text-align: center;
+}
+
+
+.buttons input {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid rgb(96, 184, 78);
+    letter-spacing: 1.5px;
+    color: #444;
+    background-color: rgb(157, 255, 137);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: ease-in-out 200ms;
+}
+
+.buttons input:first-child {
+    border-color: rgb(179, 105, 97);
+    background-color: rgb(233, 106, 91);
+}
+
+.buttons input:hover {
+    transform: translateY(-4px);
+}

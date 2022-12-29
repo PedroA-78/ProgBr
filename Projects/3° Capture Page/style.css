@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+/* ROOT */
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    padding: 8px;
+    background-color: rgb(49,174,210);
+}
+
+header h1 {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+main {
+    background-image: url(./images/people.jpg);
+    background-size: cover;
+    min-height: 747px;
+    position: relative;
+}
+
+form {
+    width: 25%;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+
+form h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+form p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 16px;
+    padding: 4px 8px;
+    border: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.button {
+    margin-bottom: 0;
+    background-color: rgb(49,174,210);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(41, 135, 161);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 16px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 32px;
+    color: white;
+}
+
+.photo img {
+    width: 120px;
+    border-radius: 8px;
+}
+
+.bio h2 {
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.bio p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 990px) {
+    form {
+        width: 65%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    /* FOOTER */
+
+    .footer-content {
+        display: block;
+        hyphens: auto;
+    }
+
+    .footer-content h2, .photo {
+        text-align: center;
+    }
+
+    .footer-content h2 {
+        margin-top: 8px;
+    }
+}
