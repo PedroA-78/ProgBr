@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.extern h2, .extern p {
+    color: rgb(33, 33, 196);
+}
+
+.selectors .sel-class {
+    color: rgb(179, 179, 66);
+}
+
+.selectors #sel-id-h, .selectors #sel-id-p {
+    color: rgb(177, 20, 20);
+}
+
+.bg-color {
+    padding: 2px 4px;
+    background-color: rgb(38, 139, 38);
+}
+
+.bg-shorthand {
+    margin: 8px 0;
+    padding: 2px 8px;
+    background: url(https://cdn.vectorstock.com/i/preview-1x/14/19/woven-stripes-textures-vector-91419.jpg) repeat center;
+    /* background-repeat: repeat;
+    background-position: top left;
+    background-size: contain; 
+    background-attachment: fixed; */
+    color: white;
+}
+
+.bg-gradient {
+    padding: 2px 8px;
+    background: linear-gradient(to top right, purple, #2121c4);
+    color: white;
+}
+
+.absolutes img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+.relatives img {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.rel-fonts {
+    font-size: 12px;
+}
+
+.rel-fonts h3 {
+    font-size: 1.8em;
+}
+
+.rel-fonts p {
+    font-size: 1.5em;
+}
+
+/* TEXTOS */
+
+.color {
+    color: rgb(52, 138, 167);
+}
+
+.text-transform {
+    text-transform: lowercase;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.text-align {
+    text-align: justify;
+    hyphens: manual;
+}
+
+.letter-spacing {
+    letter-spacing: 1.5px;
+}
+
+.word-spacing {
+    word-spacing: 8px;
+}
+
+.line-height {
+    line-height: 1.5em;
+}
+
+.text-indent {
+    text-indent: 1.5em;
+}
+
+.text-shadow {
+    color: #0e11dd;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* FONTS */
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.font-variant {
+    font-variant: small-caps;
+}
+
+.custom-font {
+    font-family: 'Righteous', cursive;
+}
+
+/* Box Configs */
+
+.border {
+    padding: 2px 8px;
+    border-radius: 8px;
+    border: 4px solid black;
+    /* border-width: 4px;
+    border-style: solid; */
+    border-color: red yellow green blue;
+}
+
+.margin {
+    margin: 40px 16px;
+    border: 2px solid black;
+}
+
+.center {
+    width: 75%;
+    margin: 0 auto 40px; 
+    border: 2px solid black;
+    text-align: center;
+}
+
+.padding {
+    border: 2px solid black;
+    padding: 8px 16px;
+}
+
+/* Box Model */
+
+.box-one {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 8px;
+    border: 4px solid rgb(3, 33, 43);
+    background-color: rgb(52, 109, 128);
+    box-sizing: border-box;
+}
+
+.box-two {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+/* Overflow */
+
+.overflow {
+    width: 100%;
+    padding: 4px 16px;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+.overflow p {
+    height: 140px;
+    overflow: auto;
+}
+
+/* Custom links */
+
+.link a {
+    display: inline-block;
+    margin: 4px 8px;
+    padding: 4px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1.5px;
+    background-color: rgb(82, 171, 201);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 200ms ease-in-out;
+}   
+
+.link a:hover {
+    transform: translateY(-4px);
+}
