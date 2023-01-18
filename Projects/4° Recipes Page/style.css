@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;500;700;900&display=swap');
+
+
+/* ROOT */
+:root {
+    --main-color: #ff6b28;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    padding: 16px;
+    background-color: var(--main-color);
+    text-align: center;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+/* MAIN > RECIPE TITLE */
+
+.recipe-title {
+    margin-top: 16px;
+}
+
+.recipe-title img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.recipe-title h1 {
+    color: var(--main-color);
+    margin: 64px 0 0 4em;
+}
+
+/* MAIN > INGREDIENTS */
+.ingredients h2 {
+    color: var(--main-color);
+}
+
+.ingredients li {
+    margin: 8px 0;
+}
+
+.ingredients a {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: var(--main-color);
+    cursor: url('./images/cursor_ingredientes.png'), default;
+}
+
+/* MAIN > PREPARE MODE */
+.prepare-mode h2 { 
+    color: var(--main-color);
+}
+
+.prepare-mode li {
+    max-width: 600px;
+    margin: 8px 0;
+    hyphens: auto;
+}
+
+/* MAIN > ADD INSTRUCTIONS */
+.add-instructions h2 {
+    color: var(--main-color);
+}
+
+.add-instructions {
+    margin-top: 64px;
+    margin-left: 4em;
+}
+
+.add-instructions p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+/*  */
+
+.ingredients, .prepare-mode, .add-instructions {
+    max-width: 800px;
+    margin: 64px auto 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--main-color);
+    padding: 12px;
+    margin-top: 32px;
+}
+
+footer p {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+/* TERMINAR O ESTILO DA PAGINA */
