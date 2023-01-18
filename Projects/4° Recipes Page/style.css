@@ -89,6 +89,7 @@ main {
 
 .add-instructions p {
     text-align: justify;
+    line-height: 24px;
     hyphens: auto;
 }
 
@@ -96,7 +97,16 @@ main {
 
 .ingredients, .prepare-mode, .add-instructions {
     max-width: 800px;
+    padding: 16px;
     margin: 64px auto 0;
+    border-radius: 16px;
+    transition: 200ms ease-in-out;
+    box-sizing: border-box;
+}
+
+.ingredients:hover, .prepare-mode:hover, .add-instructions:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+    transform: scale(1.01);
 }
 
 /* FOOTER */
